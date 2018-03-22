@@ -7,10 +7,6 @@
   <title>Mainshop</title>
 </head>
 <body>
-  <h1 style="padding-top:400px;font-size:50px;text-align:center;">KAMING SUNssssss</h1>
-apa daya kita
-kita sedang belajar git
-ada lg
-koko
+  <h1 style="padding-top:400px;font-size:50px;text-align:center;">AYO LANGSUNG NGGARAP</h1>
 </body>
 </html>
