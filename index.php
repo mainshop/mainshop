@@ -13,9 +13,13 @@
 
 </head>
 <body>
+<<<<<<< refs/remotes/origin/sadas
   <div>
     <?php include "layout/header.php"; ?>
   </div>
   <h1 style="padding-top:400px;font-size:50px;text-align:center;">KAMING SUNssssss</h1>
+=======
+  <h1 style="padding-top:400px;font-size:50px;text-align:center;">AYO LANGSUNG NGGARAP</h1>
+>>>>>>> BALIK RESET KE ffff
 </body>
 </html>
