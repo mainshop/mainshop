@@ -8,6 +8,7 @@
 </head>
 <body>
   <div class="nav">
+KAKAKAKA
     <?php include "layout/header.php"; ?>
   </div>
 </body>
