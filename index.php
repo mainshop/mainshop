@@ -11,5 +11,9 @@
 KAKAKAKA
     <?php include "layout/header.php"; ?>
   </div>
+
+  <div>
+    wes mantap ki. sesok tinggal garap
+  </div>
 </body>
 </html>
