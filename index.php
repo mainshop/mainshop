@@ -1,21 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Mainshop</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <link rel="stylesheet" href="css/style.css">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utSf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-</head>
-<body>
-  <div>
-    <?php include "layout/header.php"; ?>
-  </div>
-  <h1 style="padding-top:400px;font-size:50px;text-align:center;">KAMING SUNssssss</h1>
-</body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/search.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <title>MainShop</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div>
+      <?php 
+        include "layout/header.html";
+      ?>
+    </div>
+
+    <!-- SLIDE SHOW -->
+    <div>
+      <?php 
+        include "layout/slideshow.html";
+      ?>
+    </div>
+
+    <!-- SIDENAV -->
+    <!-- <div class="sidenav">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div> -->
+
+    <!-- Page content -->
+    <div class="main">
+      .
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery/jquery.min.js"></script>
+    <!-- <script src="popper.js/dist/popper.min.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+
+    
+  </body>
 </html>
