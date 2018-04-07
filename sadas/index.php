@@ -1,51 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utSf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <title>MainShop</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/search.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/slideshow.css">
-    <title>MainShop</title>
-  </head>
-  <body>
-    <!-- NAVBAR -->
-    <div>
-      <?php 
-        include "layout/header.html";
-      ?>
+  <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>Main Shop</h1>      
+      <p>Cari Elektronik Kesukaanmu disini !</p>
     </div>
+  </div>
 
-    <!-- SLIDE SHOW -->
-    <div>
-      <?php 
-        include "layout/slideshow.html";
-      ?>
-    </div>
+<?php 
+  include "layout/navbar.php";
+?>
 
-    <!-- SIDENAV -->
-    <!-- <div class="sidenav">
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
-    </div> -->
+<?php 
+  include "layout/slide.php";
+?>  
 
-    <!-- Page content -->
-    <div class="main">
-      .
-    </div>
+<?php 
+  include "layout/content.php";
+?>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="jquery/jquery.min.js"></script>
-    <!-- <script src="popper.js/dist/popper.min.js"></script> -->
-    <script src="js/bootstrap.min.js"></script>
+<?php 
+  include "layout/footer.php";
+?>
 
-    
-  </body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="popper.js/dist/popper.min.js"></script>
+<script src="js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>
