@@ -7,9 +7,9 @@
 
   <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<body>
+<body style="background: #d9d4ceff; margin: 0;">
 
-  <div class="jumbotron">
+  <div class="jumbotron" style="background: #5fd3bcff; margin-bottom: 0; border-radius: 0;">
     <div class="container text-center">
       <h1>Main Shop</h1>      
       <p>Cari Elektronik Kesukaanmu disini !</p>

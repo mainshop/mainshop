@@ -64,7 +64,8 @@ a {
 
 <form style="border:1px solid #ccc; width: 30%;margin: 50px; margin-left: 35%; margin-right: 35%; background: #5fd3bcff;">
   <div class="container">
-    <h1 style="text-align: center;">Masuk</h1>    
+    <h1 style="text-align: center;">Daftar</h1>
+    <p>Silahkan isi formulir dibawah ini untuk membuat akun.</p>
     <hr>
 
     <label for="email"><b>Email</b></label>
@@ -72,14 +73,18 @@ a {
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Masukkan Password" name="psw" required>
-    <hr>
 
-    <button type="submit" class="registerbtn">Masuk</button>
-    <button type="submit" class="registerbtn">Kembalil</button>
+    <label for="psw-repeat"><b>Ulangi Password</b></label>
+    <input type="password" placeholder="Ulangi Password" name="psw-repeat" required>
+    <hr>
+    <p>Menyetujui Semua persyaratan kami untuk membuat akun <a href="#">Syarat & Ketentuan</a>.</p>
+
+    <button type="submit" class="registerbtn">Daftar</button>
+    <button type="submit" class="registerbtn">Kembali</button>
   </div>
   
   <div class="container signin">
-    <p>Belum Punya Akun? <a href="#">Daftar</a>.</p>
+    <p>Sudah Punya Akun? <a href="#">Masuk</a>.</p>
   </div>
 </form>
 
