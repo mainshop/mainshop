@@ -16,7 +16,7 @@
 </head>
 <body>
   <!-- NAVBAR -->
-  <div>
+  <div class="sticky-top">
     <?php
       include "layout/navbar.php";
     ?>
@@ -30,12 +30,20 @@
   <!--LIST BARANG / KATEGORI POPULER -->
   <div style="padding-top: 50px;padding-bottom: 100px;">
     <?php
-      include "layout/kategori-populer.php"
+      include "layout/kategori-populer.php";
     ?>
   </div>
-  <!-- FOOTER -->
+  <!-- KONTEN UTAMA -->
   <div>
-  
+      <?php 
+        include "layout/content.php";
+      ?>
+  </div>
+  <!-- FOOTER -->  
+  <div>
+      <?php 
+        include "layout/footer.php";
+      ?>
   </div>
 </body>
 </html>

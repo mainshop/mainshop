@@ -75,10 +75,11 @@ nav{
 
 .navkiri{
   float: left;
-  padding-left: 10px;
+  padding: 0;
+  margin: 0;
 }
 .icon-cart{
-  border: 1px solid black;
+  border: 1px solid;
   border-radius: 10px;
 }
 .icon-cart:hover{
@@ -195,7 +196,6 @@ input[type=text], input[type=password] {
 }
 
 
-
 /* Center the image and position the close button */
 .imgcontainer {
     text-align: center;
@@ -281,4 +281,10 @@ span.psw {
     .cancelbtn {
        width: 100%;
     }
+}
+
+.user {
+  padding: 15px 10px;
+  vertical-align: middle;
+  margin: 10px 10px;
 }
