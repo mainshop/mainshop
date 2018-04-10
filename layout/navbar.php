@@ -1,13 +1,13 @@
-<nav>
+<nav class="form-inline" style="padding-top: 10px; padding-bottom: 10px;">
   <div class="topnav">
     <div class="row">
 
-      <div class="col-3" style="padding: 0;">
+      <div class="col-3" style="padding-top: 5px; padding-bottom: 5px;">
         <a href="#">MAINSHOP</a> <!--MAINSHOPNYA DIGANTI GAMBAR YAA -->
 
-        <div style="float: right; padding-top: 10px; padding-right: 10px;">
-          <p style="width: 1%;">
-            <button class="btn btn-circle" style="padding: 0;border-radius: 10%;" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        <div style="float: right; padding: 5px 10px;">
+          <p>
+            <button class="btn btn-circle" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
               <img style="width: 30px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABiSURBVGhD7djRCcAgDEBBF+hHt+wo3auDtWaEKFLRO3j/CSiIBQDYxFE7JytmSntq72TFTGkWGVjTIsvcEQDocdXuyYqZ0ry1Bta0yDJHCwB6+KAb2N5vrWUW8UEHAPyilA9TDlz495u2lwAAAABJRU5ErkJggg==">
             </button>
           </p>
@@ -17,7 +17,7 @@
 
       <div class="col-6" style="padding: 0;">
         <div class="search-container">
-          <form action="/action_page.php">
+          <form action="/action_page.php" style="padding-top: 5px; padding-bottom: 5px;">
             <input type="text" placeholder="Search.." name="search" style="width: 90%;">
             <button type="submit" style="width: 10%;"><i class="fa fa-search"></i></button>
           </form>
@@ -42,13 +42,13 @@
 <div class="collapse" id="collapseExample" style="height: 7%; width: 100%; margin: 0 auto; padding: 0;">
 <div class="container-fluid row text-center" style="background: #9aa9b0ff; width: 100%; margin: 0 auto;">    
       <div class="container-fluid">
-          <form class="center center" style="width: 70%; margin: 0 auto;">
-              <button class="btn btn-normal" style="margin: 0 auto; border-radius: 0;">LAPTOP</button>
-              <button class="btn btn-normal" style="margin: 0 auto; border-radius: 0;">SMARTHPHONE</button>
-              <button class="btn btn-normal" style="margin: 0 auto; border-radius: 0;">KEYBOARD</button>
-              <button class="btn btn-normal" style="margin: 0 auto; border-radius: 0;">MOUSE</button>
-              <button class="btn btn-normal" style="margin: 0 auto; border-radius: 0;">PC/COMPUTER</button>
-              <button class="btn btn-normal" style="margin: 0 auto; border-radius: 0;">AKSESORIS</button>
+          <form class="center center" style="width: 70%; margin: 0 auto; padding: 0;">              
+              <a href="index-laptop.php"><div type="submit" class="btn btn-normal bg-light" style="margin: 0 auto; border-radius: 0;">LAPTOP</div></a>
+              <a href="index-hp.php"><div class="btn btn-normal bg-light" style="margin: 0 auto; border-radius: 0;">SMARTHPHONE</div></a>
+              <a href="index-keyboard.php"><div class="btn btn-normal bg-light" style="margin: 0 auto; border-radius: 0;">KEYBOARD</div></a>
+              <a href="index-mouse.php"><div class="btn btn-normal bg-light" style="margin: 0 auto; border-radius: 0;">MOUSE</div></a>
+              <a href="index-pc.php"><div class="btn btn-normal bg-light" style="margin: 0 auto; border-radius: 0;">PC/COMPUTER</div></a>
+              <a href="index-monitor.php"><div class="btn btn-normal bg-light" style="margin: 0 auto; border-radius: 0;">MONITOR</div></a>
           </form>        
       </div>
 </div>

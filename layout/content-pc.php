@@ -4,14 +4,29 @@
     <div class="col-3" style="margin-bottom: 20px;">
       <div class="tcenter card">
         <div class="containerSO">
-          <img src="img/laptop.jpeg" alt="Avatar" class="image">
+          <img src="img/cpu.jpeg" alt="Avatar" class="image">
           <div class="overlay">
             <div class="text">
-              <button class="buttondetail" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Detail</button>
+              <button class="buttondetail" onclick="document.getElementById('id07').style.display='block'" style="width:auto;">Detail</button>
             </div>
           </div>
         </div>
-        <p>Laptop JOZZ</p>
+        <p>PC ROBOT</p>
+        <button type="button" class="btn btn-primary">Add to cart +</button>
+      </div>
+    </div>
+
+    <div class="col-3" style="margin-bottom: 20px;">
+      <div class="tcenter card">
+        <div class="containerSO">
+          <img src="img/cpu2.jpeg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">
+              <button class="buttondetail" onclick="document.getElementById('id07').style.display='block'" style="width:auto;">Detail</button>
+            </div>
+          </div>
+        </div>
+        <p>PC ROBOT</p>
         <button type="button" class="btn btn-primary">Add to cart +</button>
       </div>
     </div>
@@ -22,11 +37,11 @@
           <img src="img/cpu.jpeg" alt="Avatar" class="image">
           <div class="overlay">
             <div class="text">
-              <button class="buttondetail" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Detail</button>
+              <button class="buttondetail" onclick="document.getElementById('id07').style.display='block'" style="width:auto;">Detail</button>
             </div>
           </div>
         </div>
-        <p>CPU DEWA</p>
+        <p>PC ROBOT</p>
         <button type="button" class="btn btn-primary">Add to cart +</button>
       </div>
     </div>
@@ -34,74 +49,14 @@
     <div class="col-3" style="margin-bottom: 20px;">
       <div class="tcenter card">
         <div class="containerSO">
-          <img src="img/mouse.jpeg" alt="Avatar" class="image">
+          <img src="img/cpu2.jpeg" alt="Avatar" class="image">
           <div class="overlay">
             <div class="text">
-              <button class="buttondetail" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Detail</button>
+              <button class="buttondetail" onclick="document.getElementById('id07').style.display='block'" style="width:auto;">Detail</button>
             </div>
           </div>
         </div>
-        <p>MOUSE TRANSFORMER</p>
-        <button type="button" class="btn btn-primary">Add to cart +</button>
-      </div>
-    </div>
-
-    <div class="col-3" style="margin-bottom: 20px;">
-      <div class="tcenter card">
-        <div class="containerSO">
-          <img src="img/hp.jpeg" alt="Avatar" class="image">
-          <div class="overlay">
-            <div class="text">
-              <button class="buttondetail" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Detail</button>
-            </div>
-          </div>
-        </div>
-        <p>SMARTPHONE H</p>
-        <button type="button" class="btn btn-primary">Add to cart +</button>
-      </div>
-    </div>
-
-    <div class="col-3" style="margin-bottom: 20px;">
-      <div class="tcenter card">
-        <div class="containerSO">
-          <img src="img/laptop.jpeg" alt="Avatar" class="image">
-          <div class="overlay">
-            <div class="text">
-              <button class="buttondetail" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Detail</button>
-            </div>
-          </div>
-        </div>
-        <p>Laptop JOZZ</p>
-        <button type="button" class="btn btn-primary">Add to cart +</button>
-      </div>
-    </div>
-
-    <div class="col-3" style="margin-bottom: 20px;">
-      <div class="tcenter card">
-        <div class="containerSO">
-          <img src="img/hp.jpeg" alt="Avatar" class="image">
-          <div class="overlay">
-            <div class="text">
-              <button class="buttondetail" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Detail</button>
-            </div>
-          </div>
-        </div>
-        <p>SMARTPHONE H</p>
-        <button type="button" class="btn btn-primary">Add to cart +</button>
-      </div>
-    </div>
-    
-    <div class="col-3" style="margin-bottom: 20px;">
-      <div class="tcenter card">
-        <div class="containerSO">
-          <img src="img/mouse.jpeg" alt="Avatar" class="image">
-          <div class="overlay">
-            <div class="text">
-              <button class="buttondetail" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Detail</button>
-            </div>
-          </div>
-        </div>
-        <p>MOUSE TRANSFORMER</p>
+        <p>PC ROBOT</p>
         <button type="button" class="btn btn-primary">Add to cart +</button>
       </div>
     </div>
@@ -112,11 +67,11 @@
           <img src="img/cpu.jpeg" alt="Avatar" class="image">
           <div class="overlay">
             <div class="text">
-              <button class="buttondetail" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Detail</button>
+              <button class="buttondetail" onclick="document.getElementById('id07').style.display='block'" style="width:auto;">Detail</button>
             </div>
           </div>
         </div>
-        <p>CPU DEWA</p>
+        <p>PC ROBOT</p>
         <button type="button" class="btn btn-primary">Add to cart +</button>
       </div>
     </div>
@@ -124,44 +79,14 @@
     <div class="col-3" style="margin-bottom: 20px;">
       <div class="tcenter card">
         <div class="containerSO">
-          <img src="img/laptop.jpeg" alt="Avatar" class="image">
+          <img src="img/cpu2.jpeg" alt="Avatar" class="image">
           <div class="overlay">
             <div class="text">
-              <button class="buttondetail" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Detail</button>
+              <button class="buttondetail" onclick="document.getElementById('id07').style.display='block'" style="width:auto;">Detail</button>
             </div>
           </div>
         </div>
-        <p>Laptop JOZZ</p>
-        <button type="button" class="btn btn-primary">Add to cart +</button>
-      </div>
-    </div>
-
-    <div class="col-3" style="margin-bottom: 20px;">
-      <div class="tcenter card">
-        <div class="containerSO">
-          <img src="img/mouse.jpeg" alt="Avatar" class="image">
-          <div class="overlay">
-            <div class="text">
-              <button class="buttondetail" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Detail</button>
-            </div>
-          </div>
-        </div>
-        <p>MOUSE TRANSFORMER</p>
-        <button type="button" class="btn btn-primary">Add to cart +</button>
-      </div>
-    </div>
-
-    <div class="col-3" style="margin-bottom: 20px;">
-      <div class="tcenter card">
-        <div class="containerSO">
-          <img src="img/hp.jpeg" alt="Avatar" class="image">
-          <div class="overlay">
-            <div class="text">
-              <button class="buttondetail" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Detail</button>
-            </div>
-          </div>
-        </div>
-        <p>SMARTPHONE H</p>
+        <p>PC ROBOT</p>
         <button type="button" class="btn btn-primary">Add to cart +</button>
       </div>
     </div>
@@ -172,15 +97,89 @@
           <img src="img/cpu.jpeg" alt="Avatar" class="image">
           <div class="overlay">
             <div class="text">
-              <button class="buttondetail" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Detail</button>
+              <button class="buttondetail" onclick="document.getElementById('id07').style.display='block'" style="width:auto;">Detail</button>
             </div>
           </div>
         </div>
-        <p>CPU DEWA</p>
+        <p>PC ROBOT</p>
         <button type="button" class="btn btn-primary">Add to cart +</button>
       </div>
     </div>
 
+    <div class="col-3" style="margin-bottom: 20px;">
+      <div class="tcenter card">
+        <div class="containerSO">
+          <img src="img/cpu2.jpeg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">
+              <button class="buttondetail" onclick="document.getElementById('id07').style.display='block'" style="width:auto;">Detail</button>
+            </div>
+          </div>
+        </div>
+        <p>PC ROBOT</p>
+        <button type="button" class="btn btn-primary">Add to cart +</button>
+      </div>
+    </div>
+
+    <div class="col-3" style="margin-bottom: 20px;">
+      <div class="tcenter card">
+        <div class="containerSO">
+          <img src="img/cpu.jpeg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">
+              <button class="buttondetail" onclick="document.getElementById('id07').style.display='block'" style="width:auto;">Detail</button>
+            </div>
+          </div>
+        </div>
+        <p>PC ROBOT</p>
+        <button type="button" class="btn btn-primary">Add to cart +</button>
+      </div>
+    </div>
+
+    <div class="col-3" style="margin-bottom: 20px;">
+      <div class="tcenter card">
+        <div class="containerSO">
+          <img src="img/cpu2.jpeg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">
+              <button class="buttondetail" onclick="document.getElementById('id07').style.display='block'" style="width:auto;">Detail</button>
+            </div>
+          </div>
+        </div>
+        <p>PC ROBOT</p>
+        <button type="button" class="btn btn-primary">Add to cart +</button>
+      </div>
+    </div>
+
+    <div class="col-3" style="margin-bottom: 20px;">
+      <div class="tcenter card">
+        <div class="containerSO">
+          <img src="img/cpu.jpeg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">
+              <button class="buttondetail" onclick="document.getElementById('id07').style.display='block'" style="width:auto;">Detail</button>
+            </div>
+          </div>
+        </div>
+        <p>PC ROBOT</p>
+        <button type="button" class="btn btn-primary">Add to cart +</button>
+      </div>
+    </div>
+
+    <div class="col-3" style="margin-bottom: 20px;">
+      <div class="tcenter card">
+        <div class="containerSO">
+          <img src="img/cpu2.jpeg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">
+              <button class="buttondetail" onclick="document.getElementById('id07').style.display='block'" style="width:auto;">Detail</button>
+            </div>
+          </div>
+        </div>
+        <p>PC ROBOT</p>
+        <button type="button" class="btn btn-primary">Add to cart +</button>
+      </div>
+    </div>  
   </div>
 </div>
 
@@ -190,22 +189,23 @@
 
 
 <!-- DETAIL BARANG 1 -->
-<div id="id02" class="modal">
+<div id="id07" class="modal">
   
   <form class="modal-content animate" action="/action_page.php">
     <div class="imgcontainer">
-      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="img/mouse.jpeg" alt="Avatar" class="avatar">
+      <span onclick="document.getElementById('id07').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img/cpu.jpeg" alt="Avatar" class="avatar">
     </div>
 
     <div class="container">
-      <h1 style="text-align: center;">MOUSE GAME</h1>
+      <h1 style="text-align: center;">PC ROBOT</h1>
         <p>Spesifikasi</p>
         <ul>
-          <li>keren</li>
           <li>kokoh</li>
           <li>awet</li>
-          <li>kabel tebal</li>          
+          <li>tahan lama</li>
+          <li>core 7</li>
+          <li>speed turbo</li>
           <li>nyesel koe nek rak tuku</li>
         </ul>
         
