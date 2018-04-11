@@ -1,5 +1,5 @@
 <div class="row-kategori">
-  <p style="text-align: center;font-size: 50px;">TERPOPULER MINGGU INI</p>
+  <p style="font-size: 50px;">kategori "Laptop" :</p>
   <div class="row">
     <div class="col-3" style="margin-bottom: 20px;">
       <div class="tcenter card">

@@ -21,21 +21,9 @@
       include "layout/navbar.php";
     ?>
   </div>
-  <!-- CAROUSEL -->
-  <div style="padding-top: 10px;">
-    <?php
-      include "layout/carousel.php";
-    ?>
-  </div>
-  <!--LIST BARANG / KATEGORI POPULER -->
-  <div style="padding-top: 50px;padding-bottom: 100px;">
-    <?php
-      include "layout/kategori-populer.php";
-    ?>
-  </div>
-  <!-- KONTEN UTAMA -->
+  <!-- KATEGORI -->
   <div>
-      <?php 
+    <?php 
         include "layout/content-laptop.php";
       ?>
   </div>

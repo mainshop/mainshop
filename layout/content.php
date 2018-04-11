@@ -1,5 +1,5 @@
 <div class="row-kategori">
-  <p style="text-align: center;font-size: 50px;">TERPOPULER MINGGU INI</p>
+  <p style="text-align: center;font-size: 50px;">Produk Paling Dicari</p>
   <div class="row">
     <div class="col-3" style="margin-bottom: 20px;">
       <div class="tcenter card">
@@ -61,7 +61,7 @@
       </div>
     </div>
 
-    <div class="col-3" style="margin-bottom: 20px;">
+    <!-- <div class="col-3" style="margin-bottom: 20px;">
       <div class="tcenter card">
         <div class="containerSO">
           <img src="img/laptop.jpeg" alt="Avatar" class="image">
@@ -179,7 +179,7 @@
         <p>CPU DEWA</p>
         <button type="button" class="btn btn-primary">Add to cart +</button>
       </div>
-    </div>
+    </div> -->
 
   </div>
 </div>
