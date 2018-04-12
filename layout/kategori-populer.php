@@ -1,5 +1,5 @@
 <div class="row-kategori">
-  <p style="text-align: center;font-size: 50px;">TERPOPULER MINGGU INI</p>
+  <p style="text-align: center;font-size: 50px;">Produk Terpopuler</p>
   <div class="row">
     <div class="col-3">
       <div class="tcenter card">
@@ -12,7 +12,8 @@
           </div>
         </div>
         <p>Laptop JOZZ</p>
-        <button type="button" class="btn btn-primary">Add to cart +</button>
+        <p>Rp. 9.000.000</p>
+        <a href="transaksi.php" type="button" class="btn btn-primary">Add to cart +</a>
       </div>
     </div>
 
@@ -27,7 +28,8 @@
           </div>
         </div>
         <p>CPU DEWA</p>
-        <button type="button" class="btn btn-primary">Add to cart +</button>
+        <p>Rp. 9.000.000</p>
+        <a href="transaksi.php" type="button" class="btn btn-primary">Add to cart +</a>
       </div>
     </div>
 
@@ -42,7 +44,8 @@
           </div>
         </div>
         <p>MOUSE TRANSFORMER</p>
-        <button type="button" class="btn btn-primary">Add to cart +</button>
+        <p>Rp. 9.000.000</p>
+        <a href="transaksi.php" type="button" class="btn btn-primary">Add to cart +</a>
       </div>
     </div>
 
@@ -57,7 +60,8 @@
           </div>
         </div>
         <p>SMARTPHONE H</p>
-        <button type="button" class="btn btn-primary">Add to cart +</button>
+        <p>Rp. 9.000.000</p>
+        <a href="transaksi.php" type="button" class="btn btn-primary">Add to cart +</a>
       </div>
     </div>
 
@@ -81,6 +85,7 @@
     <div class="container">
       <h1 style="text-align: center;">LAPTOP HANDAL</h1>
         <p>Spesifikasi</p>
+        <p>Rp. 9.000.000</p>
         <ul>
           <li>kokoh</li>
           <li>awet</li>
@@ -91,7 +96,7 @@
           <li>nyesel koe nek rak tuku</li>
         </ul>
         
-      <button type="submit" class="buttondetail">Add to cart +</button>
+      <a href="transaksi.php" type="submit" class="buttondetail">Add to cart +</a>
     </div>
   </form>
 </div>
@@ -116,7 +121,7 @@
           <li>nyesel koe nek rak tuku</li>
         </ul>
         
-      <button type="submit" class="buttondetail">Add to cart +</button>
+      <a href="transaksi.php" type="submit" class="buttondetail">Add to cart +</a>
     </div>
   </form>
 </div>
@@ -140,7 +145,7 @@
           <li>nyesel koe nek rak tuku</li>
         </ul>
         
-      <button type="submit" class="buttondetail">Add to cart +</button>
+      <a href="transaksi.php" type="submit" class="buttondetail">Add to cart +</a>
     </div>
   </form>
 </div>
@@ -155,6 +160,7 @@
 
     <div class="container">
       <h1 style="text-align: center;">HP MEWAH</h1>
+      <h2 style="text-align: center">Rp. 9.000.000</h2>
         <p>Spesifikasi</p>
         <ul>
           <li>keren</li>
@@ -165,7 +171,7 @@
           <li>nyesel koe nek rak tuku</li>
         </ul>
         
-      <button type="submit" class="buttondetail">Add to cart +</button>
+      <a href="transaksi.php" type="submit" class="buttondetail">Add to cart +</a>
     </div>
   </form>
 </div>
