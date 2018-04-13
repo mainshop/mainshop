@@ -1,6 +1,9 @@
 <div class="row-kategori">
   <p style="text-align: center;font-size: 50px;">Produk Terpopuler</p>
+<<<<<<< HEAD
   
+=======
+>>>>>>> jajaliki
   <div class="row">
     <div class="col-3">
       <div class="tcenter card">
