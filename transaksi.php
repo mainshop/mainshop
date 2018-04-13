@@ -19,8 +19,9 @@
         $(document).ready(function(){
         function hitung() {
           var harga = $("#harga").val();
-          var jumlah = $("#jumlah").val();
-          if(harga>0 && jumlah>0){
+          $("#jumlah").val = '1';          
+          var jumlah = $("#jumlah").val();                    
+          if(harga>0 && jumlah >0){            
             var total = parseInt(harga)*parseInt(jumlah);
             $("#total").val(total);
            
@@ -37,7 +38,7 @@
         });
 
         </script>
-
+<!-- 
         <script>// ajax text
         function showHint(str) {
             if (str.length == 0) { 
@@ -55,7 +56,7 @@
                 xmlhttp.send();
             }
         }
-        </script>    
+        </script> -->    
     
   <body>
     <div class="sticky-top">
@@ -79,7 +80,7 @@
           <div class= "col-md-4 offset-2 ">
             <h6>Jumlah barang  </h6>
             <div class="input-group mb-3">
-              <input name="jumlah" id="jumlah" type="text" class="form-control" placeholder="Banyak barang " aria-label="jumlah" aria-describedby=" basic-addon1">
+              <input name="jumlah" id="jumlah" type="text" class="form-control" placeholder="Banyak barang" aria-label="jumlah" aria-describedby=" basic-addon1">
               <div class="input-group-append" style="padding-top: 8px;">  
                 <span class="input-group-text">.pcs</span>  
               </div>  
@@ -91,7 +92,7 @@
               <div class="input-group-prepend" style="padding-top: 8px;"> 
                 <span class="input-group-text"> Rp. </span>  
               </div>  
-              <input name="harga" id="harga" type="text" class="form-control" placeholder="harga sementara ketik manual" aria-label="harga" aria-describedby="basic-addon1">      
+              <input name="harga" id="harga" type="text" class="form-control" placeholder="harga sementara ketik manual" value="9000000" readonly aria-label="harga" aria-describedby="basic-addon1">      
             </div>  
             
             <h6>Total   Harga </h6> 
@@ -163,7 +164,7 @@
 
             <h6>Alamat lengkap</h6>
             <div class="input-group mb-3">
-              <textarea rows=5 cols="80" name="alamat" class="bg-white"></textarea>
+              <textarea rows=5 cols="100" name="alamat" class="bg-white"></textarea>
             </div>
           </div>
         </div>

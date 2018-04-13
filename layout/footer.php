@@ -10,11 +10,11 @@
     </div>
     <div class="col">
       <h2>Main Shop</h2>
-      <a href="#">Laptop</a><br>
-      <a href="#">SmartPhone</a><br>
-      <a href="#">Keyboard</a><br>
-      <a href="#">Mouse</a><br>
-      <a href="#">PC/Komputer</a>
+      <a href="./index-laptop.php">Laptop</a><br>
+      <a href="./index-hp.php">SmartPhone</a><br>
+      <a href="./index-keyboard.php">Keyboard</a><br>
+      <a href="./index-mouse.php">Mouse</a><br>
+      <a href="./index-pc.php">PC/Komputer</a>
     </div>
     <div class="col">
       <h2>TENTANG KAMI</h2>

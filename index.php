@@ -22,7 +22,7 @@
     ?>
   </div>
   <!-- CAROUSEL -->
-  <div style="padding-top: 10px;">
+  <div style="padding-top: 10px;width: 70%;margin:  0 auto;">
     <?php
       include "layout/carousel.php";
     ?>

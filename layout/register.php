@@ -14,14 +14,14 @@
   <script src="js/script.js"></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="text-align: center;">
+<body style="text-align: center; background-image: url('../img/bgreg.jpg');">
   <div class="container center" style="width: 100%; height: auto; margin-top: 2%">
     <form class="bg-dark text-light" style="margin: 0 auto; border-radius: 2%; width: 700px; height: 700px;">
       <div style="height: 10%; padding: 50px 20px; font-family: Cordia New;">      
         <h2>DAFTAR</h2>
       </div>
 
-      <div style="height: 50%; margin: 0 auto;">
+      <div style="height: 50%; margin: 0 auto; padding-left: 40px; padding-right: 40px;">
           <div style="padding: 15px 10px;">
             <p style="text-align: left; margin-bottom: 1px;">Nama :</p>
             <input style="float: left; width: 100%;" type="text" name="name" required="" placeholder="Nama Lengkap">        
@@ -55,7 +55,7 @@
 
       <div style="height: 10%; padding-top: 40px; margin-top: 10px;">
         <div style="padding: 1px 20px;">
-          <a href="../index.php"><button type="submit" name="back" class="btn btn-success">Kembali</button></a>
+          <a href="../index.php" type="submit" name="back" class="btn btn-success">Kembali</a>
           <button type="submit" name="login" class="btn btn-primary">Daftar</button>
         </div>
         

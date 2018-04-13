@@ -1,5 +1,6 @@
 <div class="row-kategori">
   <p style="text-align: center;font-size: 50px;">Produk Terpopuler</p>
+  
   <div class="row">
     <div class="col-3">
       <div class="tcenter card">
@@ -76,7 +77,7 @@
 <!-- DETAIL BARANG 1 -->
 <div id="id03" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php">
+  <form class="modal-content animate" action="/action_page.php" style="width: 25%; height: 73%">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="img/laptop.jpeg" alt="Avatar" class="avatar">
@@ -96,14 +97,14 @@
           <li>nyesel koe nek rak tuku</li>
         </ul>
         
-      <a href="transaksi.php" type="submit" class="buttondetail">Add to cart +</a>
+      <a href="transaksi.php" type="submit" class="buttondetail" style="text-align: center;">Add to cart +</a>
     </div>
   </form>
 </div>
 
 <div id="id07" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php">
+  <form class="modal-content animate" action="/action_page.php" style="width: 25%; height: 73%">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id07').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="img/cpu.jpeg" alt="Avatar" class="avatar">
@@ -121,14 +122,14 @@
           <li>nyesel koe nek rak tuku</li>
         </ul>
         
-      <a href="transaksi.php" type="submit" class="buttondetail">Add to cart +</a>
+      <a href="transaksi.php" type="submit" class="buttondetail" style="text-align: center;">Add to cart +</a>
     </div>
   </form>
 </div>
 
 <div id="id04" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php">
+  <form class="modal-content animate" action="/action_page.php" style="width: 25%; height: 73%">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="img/mouse.jpeg" alt="Avatar" class="avatar">
@@ -145,14 +146,14 @@
           <li>nyesel koe nek rak tuku</li>
         </ul>
         
-      <a href="transaksi.php" type="submit" class="buttondetail">Add to cart +</a>
+      <a href="transaksi.php" type="submit" class="buttondetail" style="text-align: center;">Add to cart +</a>
     </div>
   </form>
 </div>
 
 <div id="id06" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php">
+  <form class="modal-content animate" action="/action_page.php" style="width: 25%; height: 73%">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id06').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="img/hp.jpeg" alt="Avatar" class="avatar">
@@ -171,7 +172,7 @@
           <li>nyesel koe nek rak tuku</li>
         </ul>
         
-      <a href="transaksi.php" type="submit" class="buttondetail">Add to cart +</a>
+      <a href="transaksi.php" type="submit" class="buttondetail" style="text-align: center;">Add to cart +</a>
     </div>
   </form>
 </div>

@@ -14,9 +14,9 @@
   <script src="js/script.js"></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="text-align: center;">
-  <div class="container center" style="width: 30%; height: auto; margin-top: 10%">
-    <form class="bg-dark text-light" style="margin: 0 auto; border:1; border-radius: 2%; width: 400px; height: 500px;">
+<body style="text-align: center; background-image: url('../img/bgreg.jpg');">
+  <div class="container center" style="width: 30%; height: auto; margin-top: 10%;">
+    <form class="bg-dark text-light" style="margin: 0 auto; border:1; border-radius: 2%; width: 400px; height: 500px; padding-left: 40px; padding-right: 40px;">
       <div style="height: 30%; padding: 50px 20px; font-family: Cordia New;">      
         <h2>MASUK</h2>
       </div>
@@ -35,7 +35,7 @@
 
       <div style="height: 35%;">
         <div style="padding: 1px 20px; margin-bottom: 10px;">
-          <a href="../index.php"><button type="submit" name="back" class="btn btn-success">Kembali</button></a>
+          <a href="../index.php" type="submit" name="back" class="btn btn-success">Kembali</a>
           <button type="submit" name="login" class="btn btn-primary">Masuk</button>
         </div>
         
