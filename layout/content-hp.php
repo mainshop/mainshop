@@ -1,10 +1,6 @@
 <div class="row-kategori">
-<<<<<<< HEAD
   <p style="font-size: 50px;">Kategori "Smartphone"</p>
   
-=======
-  <p style="font-size: 50px;">Kategori "Smartphone" :</p>
->>>>>>> jajaliki
   <div class="row">
     <div class="col-3" style="margin-bottom: 20px;">
       <div class="tcenter card">
