@@ -1,5 +1,5 @@
 <div class="row-kategori">
-  <p style="font-size: 50px;">Kategori "Mouse" </p>
+  <p style="font-size: 50px; padding: 2%; font-family: ubuntu;  margin-top: 2%;" class="bg-dark text-light">MOUSE</p>
   
   <div class="row">
     <div class="col-3" style="margin-bottom: 20px;">
@@ -204,7 +204,7 @@
 <!-- DETAIL BARANG 1 -->
 <div id="id04" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php" style="width: 25%; height: 73%">
+  <form class="modal-content animate" action="/action_page.php" style="width: 25%; height: auto;">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="img/mouse.jpeg" alt="Avatar" class="avatar">
@@ -222,7 +222,9 @@
           <li>nyesel koe nek rak tuku</li>
         </ul>
         
-      <a href="transaksi.php" type="submit" class="buttondetail" style="text-align: center;">Add to cart +</a>
+        <a href="transaksi.php">
+          <div style="padding: 14px; text-align: center" class="bg-success text-light">Add to cart +</div>
+        </a>
     </div>
   </form>
 </div>

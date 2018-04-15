@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<nav class="form-inline" style="padding-top: 10px;padding-bottom: 10px;height: 70px;">
-  <div class="topnav" style="margin-bottom: 20px; padding-top: 7px; height: 70px;">
-    <div class="row">
-
-      <div class="col-3" style="padding-top: 5px; padding-bottom: 5px; width: 100px;">
-        <h2 class="navbar-brand brand-name" style="margin:  0 auto; padding-top: 0px; margin-top: -10px;">
-           <a href="index.html"><img style="width: 100px;" class="img-responsive2"       
-           src="./img/logo.png"></a>
-        </h2>
-        <div style="float: right; padding: 5px 10px;">        
+<nav class="form-inline" style="padding-top: 10px;padding-bottom: 10px;height: 70px; width: 100%">
+  <h2 class="navbar-brand brand-name" style="margin:  0 auto; padding-top: 0px; margin-top: -10px; padding-right: 0; margin-right: 0;">
+    <a href="./index.php"><img style="width: 100px;" class="img-responsive" src="./img/logo.png"></a>
+  </h2>
+  <div class="topnav" style="margin-bottom: 0; padding-top: 0; height: 120%; margin-left: 0; width: 80%">    
+    <div class="row">      
+      <div class="col-3" style="padding-top: 0; padding-bottom: 1%; width: 100px;">
+        <div style="float: right; padding: 2%;">        
             <button class="btn btn-circle" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
               <img style="width: 30px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABiSURBVGhD7djRCcAgDEBBF+hHt+wo3auDtWaEKFLRO3j/CSiIBQDYxFE7JytmSntq72TFTGkWGVjTIsvcEQDocdXuyYqZ0ry1Bta0yDJHCwB6+KAb2N5vrWUW8UEHAPyilA9TDlz495u2lwAAAABJRU5ErkJggg==">
             </button>
@@ -22,20 +20,17 @@
 
       <div class="col-6" style="padding: 0;">
         <div class="search-container">
-          <form action="/action_page.php" style="padding-top: 5px; padding-bottom: 5px;">
-            <input type="text" placeholder="Search.." name="search" style="width: 90%;">
-            <button type="submit" style="width: 10%;"><i class="fa fa-search" action="./index.php"></i></button>
+          <form action="layout/database.php" style="padding-top: 0; padding-bottom: 2%;">
+            <input type="text" placeholder="Cari.." name="search" style="width: 90%;">
+            <button type="submit" style="width: 10%;"><i class="fa fa-search"></i></button>
           </form>
         </div>
       </div>
 
-      <div class="col-3" style="padding: 0;margin-top: 1%;">
-        <div class="right form-inline" style="float: right;">
+      <div class="col-3" style="padding-top: 0.2%; width: 100px; padding-right: 0;">
+        <div class="right" style="float: right; padding-top: 2%;">
           <div class="navkiri">
-            <!-- <a href="#" class="icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a> -->
-          </div>
-          <div class="navkiri">
-            <a href="layout/register.php" style="margin: 0 auto; padding: 0; border-style: solid; border-width: 1px;"><button class="btn" style="width:auto; color: white; background: #e9e9e9;">Daftar</button></a>
+            <a href="layout/register.php" style="margin: 0 auto; padding: 0; border-style: solid; border-width: 1px;"><button class="btn text-dark" style="width:auto; color: white; background: #e9e9e9;">Daftar</button></a>
             <a href="layout/login.php" style="margin: 0 auto; padding-bottom: 0; padding-top: 0;"><button class="btn bg-light" style="width:auto;">Masuk</button></a>
           </div>
         </div>

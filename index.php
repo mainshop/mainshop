@@ -16,7 +16,7 @@
 </head>
 <body>
   <!-- NAVBAR -->
-  <div class="sticky-top">
+  <div class="sticky-top" style="box-shadow: 1px 1px 5px;">
     <?php
       include "layout/navbar.php";
     ?>
@@ -40,7 +40,7 @@
       ?>
   </div>
   <!-- FOOTER -->  
-  <div>
+  <div style="margin-top: 5%;">
       <?php 
         include "layout/footer.php";
       ?>

@@ -6,10 +6,10 @@
   </ol> -->
   <div class="carousel-inner" style="height: auto;" srole="listbox">
     <div class="carousel-item active">
-      <img class="d-block img-fluid" src="img/iklan.jpg" style="margin: 0 auto;" alt="First slide">
+      <a href="./index-hp.php"><img class="d-block img-fluid" src="img/iklan.jpg" style="margin: 0 auto;" alt="First slide"></a>
     </div>
     <div class="carousel-item">
-      <img class="d-block img-fluid" style="margin: 0 auto;" src="img/iklan2.jpg" alt="Second slide">
+      <a href="./index-hp.php"><img class="d-block img-fluid" style="margin: 0 auto;" src="img/iklan2.jpg" alt="Second slide"></a>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
