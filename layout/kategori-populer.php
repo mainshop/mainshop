@@ -1,5 +1,5 @@
 <div class="row-kategori">
-  <p style="font-size: 50px; padding: 2%; font-family: ubuntu;" class="bg-dark text-light">PRODUK TERPOPULER</p>
+  <p style="font-size: 30px; padding: 10px; font-family: ubuntu;" class="bg-dark text-light">PRODUK TERPOPULER</p>
   
   <div class="row">
     <div class="col-3">

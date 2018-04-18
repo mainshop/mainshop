@@ -1,5 +1,5 @@
 <div class="row-kategori">
-  <p style="font-size: 50px; padding: 2%; font-family: ubuntu; margin-top: 2%;" class="bg-dark text-light">PC / KOMPUTER</p>
+  <p style="font-size: 30px;padding: 10px;font-family: ubuntu;margin-top: 2%;" class="bg-dark text-light">PC / KOMPUTER</p>
 
   <div class="row">
     <div class="col-3" style="margin-bottom: 20px;">

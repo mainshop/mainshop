@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   outline: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -92,6 +93,7 @@ nav{
 .daftarmasuk:hover{
   text-decoration: underline;
 }
+
 /* ============== END NAVBAR ==============*/
 
 /* CAROUSEL */
@@ -295,3 +297,6 @@ span.psw {
   vertical-align: middle;
   margin: 10px 10px;
 }
+
+
+/* FOOTER */
