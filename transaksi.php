@@ -39,7 +39,7 @@
         });
         });
 
-        </script>
+    </script>
 <!-- 
         <script>// ajax text
         function showHint(str) {
@@ -66,6 +66,8 @@
         include "layout/navbar.php";
       ?>
     </div>
+
+    <form action="proses-transaksi.php">
 
     <div class="container">
       <section class="bg-primary">
@@ -120,18 +122,18 @@
           <div class="col-md-8 offset-2">
             <h6>Nama </h6>
             <div class="input-group mb-3">
-             <input type="text" class="form-control" placeholder="Nama Lengkap" aria-label="Username" aria-describedby="basic-addon1">
+             <input type="text" class="form-control" placeholder="Nama Lengkap" aria-label="Username" aria-describedby="basic-addon1" required>
             </div>
               
             <h6>Email </h6>
             <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="xx@email.com" aria-label="Username" aria-describedby="basic-addon1">
+              <input type="text" class="form-control" placeholder="Email Anda" aria-label="Username" aria-describedby="basic-addon1" required>
             </div>
               
             <h6>Provinsi</h6>
             <div class="input-group mb-3">
               <select class="custom-select" id="input1">
-                <option selected>Choose ...</option>
+                <option selected>Pilih ...</option>
                 <option value="1">Jawa Tengah</option>
                 <option value="2">Jawa Timur</option>               
                 <option value="3">Jawa Barat</option>
@@ -141,7 +143,7 @@
             <h6>Kota</h6>
             <div class="input-group mb-3">
               <select class="custom-select" id="input2">
-                <option selected>Choose...</option>
+                <option selected>Pilih...</option>
                 <option value="1">Banjarnegara</option>
                 <option value="2">Purwokerto</option>               
                 <option value="3">Purworejo</option>
@@ -162,12 +164,12 @@
               <div class="input-group-prepend" style="padding-top: 8px;">
                 <span class="input-group-text">+62</span>
               </div>
-              <input type="text" class="form-control" placeholder="Nomor Hp" aria-label="Username" aria-describedby="basic-addon1">
+              <input type="text" class="form-control" placeholder="Nomor Hp" aria-label="Username" aria-describedby="basic-addon1" required>
             </div>
 
             <h6>Alamat lengkap</h6>
             <div class="input-group mb-3">
-              <textarea rows=5 cols="100" name="alamat" class="bg-white"></textarea>
+              <textarea rows=5 cols="100" name="alamat" class="bg-white" required></textarea>
             </div>
           </div>
         </div>
