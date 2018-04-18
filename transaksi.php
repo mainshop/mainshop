@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="img/logokotak.png" type="image/x-icon">
     <title>Transaksi | MAINSHOP</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,6 +23,8 @@
           var jumlah = $("#jumlah").val();                    
           if(harga>0 && jumlah >0){            
             var total = parseInt(harga)*parseInt(jumlah);
+         
+
             $("#total").val(total);
            
           }else{
@@ -65,8 +66,7 @@
         include "layout/navbar.php";
       ?>
     </div>
-    <form action="proses-transaksi.php">
-    
+
     <div class="container">
       <section class="bg-primary">
         <div class="row">
@@ -82,7 +82,7 @@
           <div class= "col-md-4 offset-2 ">
             <h6>Jumlah barang  </h6>
             <div class="input-group mb-3">
-              <input name="jumlah" id="jumlah" type="text" class="form-control" placeholder="Banyak barang" aria-label="jumlah" aria-describedby=" basic-addon1">
+              <input name="jumlah" id="jumlah" type="text" class="form-control" placeholder="1" aria-label="jumlah" aria-describedby=" basic-addon1">
               <div class="input-group-append" style="padding-top: 8px;">  
                 <span class="input-group-text">.pcs</span>  
               </div>  
@@ -102,7 +102,8 @@
                 <div class="input-group-prepend" style="padding-top: 8px;"> 
                   <span class="input-group-text">Rp. </span>  
                 </div>  
-                <input name="total" id="total" type="text" class="form-control" placeholder="Total harga barang" readonly="readonly" aria-label="harga"   aria-describedby="basic-addon1" >     
+                <input name="total" id="total" type="text" class="form-control" placeholder="9000000" readonly="readonly" aria-label="harga"   aria-describedby="basic-addon1" >
+                <!-- Iki SektakUBah  -->
               </div>
           </div>  
             
@@ -179,7 +180,6 @@
         </div>
       </section>
     </div>
-    </form>
 
     <div>
       <?php 
